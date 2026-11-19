@@ -93,7 +93,7 @@ def log_error(bot, update, error):
 
 def main():
     utils.create_database()
-    updater = Updater(token=TG_TOKEN)
+    updater = Updater(token=9098836145:AAEOAytKFG9vhkCC89ZkD0Izr4_LXqWSsYA)
     dp = updater.dispatcher
     variables.user_data_dict = dp.user_data
 
